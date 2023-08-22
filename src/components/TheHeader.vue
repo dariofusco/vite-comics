@@ -37,8 +37,9 @@ export default {
 <style lang="scss" scoped>
 .nav-link {
     color: black;
+    height: 5rem;
 }
-.active {
+.nav-link.active {
     color: #0076e5;
     background-color: white;
     border-bottom: 3px solid #0076e5;
