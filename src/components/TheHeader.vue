@@ -38,7 +38,6 @@ export default {
 .nav-link {
     color: black;
 }
-
 .active {
     color: #0076e5;
     background-color: white;
