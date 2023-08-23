@@ -22,7 +22,8 @@ export default {
   <TheHeader></TheHeader>
   <main>
     <div class="hero"></div>
-    <div class="container text-center py-4">
+    <div class="container text-center py-5">
+      <span class="badge badge-primary">CURRENT SERIES</span>
       <div class="row">
         <div class="col" v-for="comic in comicsList">
           <ComicsCard :imgSrc="comic.thumb" :comicsType="comic.type"></ComicsCard>
@@ -47,4 +48,15 @@ main {
   background-image: url(./assets/img/jumbotron.jpg);
   height: 400px;
 }
+
+.badge {
+  border: 1px solid #0076e5;
+  border-radius: 0;
+  background-color: #0076e5;
+  font-size: 20px;
+  position: absolute;
+  top: 54%;
+  left: 16%;
+}
+
 </style>

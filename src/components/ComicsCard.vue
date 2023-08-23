@@ -31,5 +31,6 @@ export default {
 
 .card-text {
     color: white;
+    text-transform: uppercase;
 }
 </style>
