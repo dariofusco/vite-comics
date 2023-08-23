@@ -31,6 +31,32 @@ export default {
       </div>
       <button type="button" class="btn btn-primary">LOAD MORE</button>
     </div>
+    <div class="bar">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col">
+            <img src="./assets/img/buy-comics-digital-comics.png" alt="">
+            <span>DIGITAL COMICS</span>
+          </div>
+          <div class="col">
+            <img src="./assets/img/buy-comics-merchandise.png" alt="">
+            <span>DC MERCHANDISE</span>
+          </div>
+          <div class="col">
+            <img src="./assets/img/buy-comics-subscriptions.png" alt="">
+            <span>SUBSCRIPTION</span>
+          </div>
+          <div class="col">
+            <img src="./assets/img/buy-comics-shop-locator.png" alt="">
+            <span>COMIC SHOP LOCATOR</span>
+          </div>
+          <div class="col">
+            <img src="./assets/img/buy-dc-power-visa.svg" alt="">
+            <span>DC POWER VISA</span>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
   <TheFooter></TheFooter>
 </template>
@@ -55,8 +81,17 @@ main {
   background-color: #0076e5;
   font-size: 20px;
   position: absolute;
-  top: 54%;
+  top: 74%;
   left: 16%;
 }
 
+.bar {
+  background-color: #0076e5;
+  padding: 2rem;
+  color: white;
+}
+
+.bar img {
+  width: 20%;
+}
 </style>
